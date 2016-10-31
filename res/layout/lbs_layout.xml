@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/lbs_mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:id="@+id/lbs_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_background"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <Button
+            android:id="@+id/lbs_title_left_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_back_btn_bg"
+            android:minWidth="60dip"
+            android:singleLine="true"
+            android:textColor="@color/title_button_selector"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/lbs_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableRight="@drawable/map_search_nearby_icon"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="100dip"
+            android:minWidth="100dip"
+            android:singleLine="true"
+            android:textColor="@color/lbs_title_selector"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/lbs_title_right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/simple_btn_bg"
+            android:minWidth="60dip"
+            android:paddingLeft="3dip"
+            android:paddingRight="3dip"
+            android:singleLine="true"
+            android:textColor="@color/title_button_selector"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lbs_left_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/lbs_layout_search_route_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:background="@drawable/map_route_plan" />
+
+        <Button
+            android:id="@+id/lbs_layout_zoom_in_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/map_zoom_in" />
+
+        <Button
+            android:id="@+id/lbs_layout_zoom_out_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="30dip"
+            android:background="@drawable/map_zoom_out" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lbs_right_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lbs_title_layout"
+        android:orientation="vertical"
+        android:paddingRight="10dip" >
+
+        <ToggleButton
+            android:id="@+id/lbs_layout_toggle_traffic"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/map_traffic_off"
+            android:scaleType="fitXY"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lbs_bottom_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/lbs_layout_my_location_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/map_my_location_icon" />
+
+        <Button
+            android:id="@+id/lbs_layout_show_location_search_result_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/show_detail_list_icon" />
+
+        <Button
+            android:id="@+id/lbs_layout_show_route_plan_result_btn"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/show_route_plan_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/lbs_layout_map_scale"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/map_scale"
+            android:gravity="top|center"
+            android:shadowColor="#ffffffff"
+            android:shadowDx="1.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="1.0"
+            android:text="100米"
+            android:textColor="#424242"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!--  -->
+
+    <com.android.cheyooh.map.view.LBSPopUpOptionView
+        android:id="@+id/lbs_pop_up_option_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

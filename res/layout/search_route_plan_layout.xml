@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dip"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/search_route_plan_layout_start_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="起点:"
+                    android:textColor="#424242"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/search_route_plan_layout_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/emergency_child_name_bg"
+                    android:inputType="text"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:text="@string/my_location"
+                    android:textColor="#424242"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/search_route_plan_layout_destination_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="终点:"
+                    android:textColor="#424242"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/search_route_plan_layout_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/emergency_child_name_bg"
+                    android:inputType="text"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="#424242"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <!--
+                 <Button
+                android:id="@+id/search_route_plan_layout_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="换\r\n位\r\n置" />
+            -->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip" >
+
+            <Button
+                android:id="@+id/search_route_plan_layout_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_transit_normal" />
+
+            <Button
+                android:id="@+id/search_route_plan_layout_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_toRightOf="@id/search_route_plan_layout_bus"
+                android:background="@drawable/btn_driving_normal" />
+
+            <Button
+                android:id="@+id/search_route_plan_layout_walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_toRightOf="@id/search_route_plan_layout_car"
+                android:background="@drawable/btn_walking_normal" />
+
+            <Button
+                android:id="@+id/search_route_plan_layout_begin_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/btn_search_route_plan_btn" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

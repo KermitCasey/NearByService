@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lbs_pop_up_option_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lbs_pop_up_option_btn_layout"
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="46dip"
+        android:background="@drawable/map_pop_up_option_bg"
+        android:orientation="vertical"
+        android:padding="30dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/lbs_btn_search_gas_station"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_gas_station_icon"
+                android:text="@string/gas_station"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/lbs_btn_search_depot"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_depot_icon"
+                android:text="@string/depot"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/lbs_btn_search_car_wash"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_car_wash_icon"
+                android:text="@string/car_wash"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/lbs_btn_search_bank"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_bank_icon"
+                android:text="@string/bank"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/lbs_btn_search_auto_4s_shop"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_auto_4s_shop_icon"
+                android:text="@string/auto_4s_shop"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/lbs_btn_search_auto_maintenace"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_auto_maintenance_icon"
+                android:text="@string/auto_maintenance"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/lbs_btn_search_transportation_department"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_transportation_department_icon"
+                android:text="@string/transportation_department"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/lbs_btn_search_auto_beauty"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_auto_beauty_icon"
+                android:text="@string/auto_beauty"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <Button
+                android:id="@+id/lbs_btn_search_auto_parts"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#00000000"
+                android:drawableTop="@drawable/map_auto_parts_icon"
+                android:text="@string/auto_parts"
+                android:textColor="#ffffffff"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

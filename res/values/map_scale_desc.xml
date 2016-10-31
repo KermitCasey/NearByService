@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="map_scales_desc">
+        <item >2000KM</item>
+        <item >1000KM</item>
+        <item >500KM</item>
+        <item >200KM</item>
+        <item >100KM</item>
+        <item >50KM</item>
+        <item >25KM</item>
+        <item >20KM</item>
+        <item >10KM</item>
+        <item >5KM</item>
+        <item >2KM</item>
+        <item >1KM</item>
+        <item >500M</item>
+        <item >200M</item>
+        <item >100M</item>
+        <item >50M</item>
+        <item >20M</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dip"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/dialog_title_bg"
+        android:gravity="center">
+        <TextView 
+            android:id="@+id/options_dialog_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+        	
+    </LinearLayout>
+	<ListView 
+	    android:id="@+id/options_dialog_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:listSelector="@color/transparent"
+	    android:divider="@drawable/line_horizontal"
+	    android:dividerHeight="1dip"
+	    android:scrollbars="none"
+	    android:cacheColorHint="@color/transparent"
+	    android:background="@drawable/dialog_content_bg"
+	    ></ListView>
+</LinearLayout>

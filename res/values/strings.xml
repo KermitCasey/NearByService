@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">车友汇周边服务</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="gas_station">加油站</string>
+    <string name="depot">停车场</string>
+    <string name="car_wash">洗车店</string>
+    <string name="auto_4s_shop">4S店</string>
+    <string name="auto_maintenance">汽车维修店</string>
+    <string name="transportation_department">交管局</string>
+    <string name="auto_beauty">汽车美容</string>
+    <string name="auto_parts">汽车配件</string>
+    <string name="bank">银行</string>
+    <string name="hide">隐藏</string>
+    <string name="default_city">深圳</string>
+    <string name="back">返回</string>
+    <string name="choose">选择</string>
+    <string name="getting_position_wait">定位中，请稍候</string>
+    <string name="searching">正在搜索</string>
+    <string name="searching_route_plan">正在搜索路线，请稍候&#8230;</string>
+    <string name="location_failed_please_retry">定位失败,请重试</string>
+    <string name="location_failed">定位失败</string>
+    <string name="network_error">您的网络出错啦！</string>
+    <string name="search_failed">搜索失败</string>
+    <string name="come_here">到这里来</string>
+    <string name="start_here">从这里出发</string>
+    <string name="detail">详情</string>
+    <string name="distance">路程：</string>
+    <string name="failed_to_call">拨打电话失败</string>
+    <string name="no_next_page">当前页是最后一页!</string>
+    <string name="no_prev_page">当前页是第一页!</string>
+    <string name="bmap_key_error">百度地图验证失败</string>
+    <string name="route_plan">方案路线</string>
+    <string name="driving_plan">驾车方案</string>
+    <string name="transit_plan">换乘方案</string>
+    <string name="walking_plan">步行方案</string>
+    <string name="search_condition_error">"输入正确的检索条件！"</string>
+    <string name="map_result_not_found">未找到搜索结果</string>
+    <string name="my_location">我的位置</string>
+    <string name="search_location">搜索地点</string>
+    <string name="start_dest_null">起点或终点不能为空!</string>
+    <string name="searching_poi_please_wait">查询地点中，请稍候&#8230;</string>
+    <string name="search_poi_failed">查询地点失败</string>
+    <string name="no_search_result">没有查询到结果</string>
+
+    <string name="umeng_example_home_btn_analytics">统计分析</string>
+    <string name="umeng_example_home_btn_xp">应用联盟</string>
+    <string name="umeng_example_home_btn_ad">移动广告</string>
+    <string name="umeng_example_home_btn_tools">工具</string>
+    <string name="umeng_example_home_btn_fb">用户反馈</string>
+    <string name="umeng_example_home_btn_update">自动更新</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_example_home_btn_xp_ufp">Umeng For Publisher</string>
+    <string name="umeng_example_xp_home_btn_container">嵌入容器</string>
+    <string name="umeng_example_xp_home_btn_banner">横幅</string>
+    <string name="umeng_example_xp_home_btn_banner_ufp">"横幅\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_handler">小把手</string>
+    <string name="umeng_example_xp_home_btn_handler_ufp">"小把手\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_tab">多页面</string>
+    <string name="umeng_example_xp_home_btn_custom">自定义样式</string>
+    <string name="umeng_example_xp_home_btn_wap">Web页</string>
+    <string name="umeng_example_xp_home_btn_wap_ufp">"Web页\n(UFP)"</string>
+    <string name="umeng_example_xp_home_btn_textlink">文字链</string>
+    <string name="umeng_example_xp_home_btn_container_header">轮播大图\n(UFP)</string>
+    <string name="umeng_example_xp_home_btn_push_header">推送弹窗\n(UFP)</string>
+    <string name="umeng_example_xp_home_handler_icons">图标列表\n(UFP)</string>
+    <string name="umeng_example_fb_home_btn_simple">简单反馈</string>
+    <string name="actionbar_activity_not_found">打开Activity失败</string>
+    <string name="umeng_example_home_hint_wait">敬请期待</string>
+
+    <string name="intro"> 下面展示使用 js 调用友盟 自定义事件  APIs</string>
+
+</resources>

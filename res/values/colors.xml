@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="options_list_item_pressed">#bcdbe4</drawable>
+    <drawable name="list_item_pressed">#87c6d5</drawable>
+    
+    <color name="transparent">#00000000</color>
+    <color name="main_background">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#e3e5e5</color>
+    <color name="red">#FF0000</color>
+    
+    <color name="title_btn_sel">#003356</color>
+    <color name="text_color_gray1">#6f6f6f</color>
+    <color name="text_color_gray2">#575654</color>
+
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+</resources>
